@@ -33,5 +33,7 @@ int main(void){
     f.OutTem();
     Celsius c2=f;
     c2.OutTem();
+    Celsius c3=30;
+    c3.OutTem();
     return 0;
 }
