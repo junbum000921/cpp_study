@@ -2,7 +2,7 @@
 #include <malloc.h>
 #include <memory.h>
 
-template <class T>
+template <typename T>
 void swaparray(T *a, T *b, int num)
 {
 	void *t;
