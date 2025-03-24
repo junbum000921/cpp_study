@@ -1,6 +1,19 @@
 {
     "files.associations": {
         "*.data": "c",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "cmath": "cpp",
+        "exception": "cpp",
+        "ios": "cpp",
+        "istream": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "optional": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "xiosbase": "cpp",
+        "xstring": "cpp"
     }
 }
