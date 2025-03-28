@@ -12,7 +12,7 @@ public:
 		printf("current = %d\n", count);
 	}
 };
-
+int Simple::count = 0;
 int main()
 {
 	Simple s, *ps;

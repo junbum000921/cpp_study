@@ -7,7 +7,7 @@ class Human{
         Human(const char* n, int a){
             strcpy(name, n); age = a;
         }
-        void intro() const{
+        virtual void intro() const{
             printf("%s, %d\n", name, age);
         }
 };
@@ -15,7 +15,7 @@ class Strudent : public Human{
     private: int id;
     public:
         Strudent(const char* n, int a, int i): Human(n, a), id(i){}
-        void intro() const{//method overriding
+        void intro() {//method overriding
             printf("%s, %d, %d\n", name, age, id);
         }
         void study(){

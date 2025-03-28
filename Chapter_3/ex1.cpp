@@ -3,7 +3,7 @@
 class Time{
     private: int hour, minute, second;
     public: 
-        Time(){}
+        Time(){hour = 0; minute = 0; second = 0;}
         Time(int h, int m, int s): hour(h), minute(m), second(s){}
         void OutTime() const { printf("%d:%d:%d\n", hour, minute, second); }
         const Time operator +(const Time &t1){
@@ -24,6 +24,7 @@ class Time{
 
 int main(){
     Time t1(1, 2, 3), t2(4, 5, 6), t3;
+    t3.OutTime();
     t3 = t1+t2;
     t1.OutTime();
     t2.OutTime();
